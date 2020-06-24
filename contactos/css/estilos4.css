@@ -1,0 +1,155 @@
+*  /*ASPECTOS GENERRALES DE LA WEB*/{ 
+    margin: 0;
+    padding: 0; 
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .fondo{
+    background: #0d0d0d;
+  }
+
+#navbar {
+overflow: hidden;
+background-color: #1d3640;
+padding: 90px 10px;
+transition: 0.4s;
+position: fixed;
+width: 100%;
+top: 0;
+z-index: 99;
+}
+
+#navbar a {
+float: left;
+color: white;
+text-align: center;
+padding: 12px;
+text-decoration: none;
+font-size: 18px; 
+line-height: 25px;
+border-radius: 4px;
+}
+
+#navbar #logo {
+font-size: 35px;
+font-weight: bold;
+transition: 0.4s;
+}
+
+#navbar a:hover {
+background-color: #7784bc;
+color: black;
+}
+
+#navbar a.active {
+background-color: white;
+color: black;
+}
+
+#navbar-right {
+float: right;
+}
+
+@media screen and (max-width: 580px) {
+#navbar {
+  padding: 20px 10px !important;
+}
+#navbar a {
+  float: none;
+  display: block;
+  text-align: left;
+}
+#navbar-right {
+  float: none;
+}
+}
+
+.texto{
+    text-align: justify;
+    float: left;
+    font-size: 180%;
+    color: blanchedalmond;
+    padding: 15px 15px ;
+}
+
+.container-fluid{
+    height: 150px;
+    margin-top: 70px;
+}
+
+.container1{
+    background: rgba(0,0,0,0.3);
+    margin: auto;
+}
+
+.row{
+    padding-top: 20px;
+}
+
+.uno{
+    margin-top:  
+    background:#; 
+    height: 110px ;
+    text-align: justify; 
+    padding: 10px 10px 0 60px; 
+    text-align: center
+}
+
+.instagram{
+    width: 65px;
+}
+
+.dos{
+    margin-top:  
+    background:#; 
+    height: 110px ;
+    text-align: justify; 
+    padding: 10px 10px 0 60px; 
+    text-align: center
+}
+
+.twitter{
+    width: 65px;
+}
+
+.tres{
+    margin-top:  
+    background:#; 
+    height: 110px ;
+    text-align: justify; 
+    padding: 10px 10px 0 60px; 
+    text-align: center
+}
+
+.facebook{
+    width: 65px;
+}
+
+.cuatro{
+    margin-top:  
+    background:#; 
+    height: 110px ;
+    text-align: justify; 
+    padding: 10px 10px 0 60px; 
+    text-align: center
+}
+
+.whatsapp{
+    width: 65px;
+}
+
+.titulo{
+    text-align: center;
+    text-align: justify;
+    font-size: 100%;
+    color: blanchedalmond;
+    padding: 15px 15px 0px 60px;
+}
+
+.titulo2{
+    text-align: center;
+    text-align: justify;
+    font-size: 100%;
+    color: blanchedalmond;
+    padding: 15px 15px 0px 60px;
+    float: left;
+}
